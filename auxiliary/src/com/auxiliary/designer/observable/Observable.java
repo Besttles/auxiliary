@@ -1,0 +1,1 @@
+package com.auxiliary.designer.observable;public interface Observable {    void addObserver(Observers observable);    void deleteOberver(Observers observable);    void notifyObserver(String context);}

@@ -1,0 +1,1 @@
+package com.auxiliary.designer.decorator;public class Score extends SuperScore{    public void report(){        System.out.println("原有的报告");    }    public void sign(String name){        System.out.println("签字："+name);    };}

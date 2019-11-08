@@ -1,0 +1,1 @@
+package com.auxiliary.designer.decorator;public class SortDecorator extends Decorator{    public SortDecorator(SuperScore score) {        super(score);    }    public void sortDecorator(){        System.out.println("修饰后的排名变高！");    }    @Override    public void report() {        this.sortDecorator();        super.report();    }}

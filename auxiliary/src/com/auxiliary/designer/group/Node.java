@@ -1,0 +1,1 @@
+package com.auxiliary.designer.group;public interface Node {    String getInfo();}

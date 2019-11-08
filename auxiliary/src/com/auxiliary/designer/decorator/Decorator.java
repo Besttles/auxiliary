@@ -1,0 +1,1 @@
+package com.auxiliary.designer.decorator;public abstract class Decorator extends Score {    private SuperScore score;    public Decorator(SuperScore score) {        this.score = score;    }    @Override    public void report() {        this.score.report();    }    @Override    public void sign(String name) {        System.out.println("签字："+name);    }}

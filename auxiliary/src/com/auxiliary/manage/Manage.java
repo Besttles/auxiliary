@@ -1,0 +1,1 @@
+package com.auxiliary.manage;public abstract class Manage<V> {    protected String managerName;    protected abstract void manage();}

@@ -1,0 +1,1 @@
+package com.auxiliary.designer.group;import java.util.List;public interface IBrunch {    void addUnderling(Node... node);    List<Node> getUL();}

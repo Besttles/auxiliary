@@ -1,0 +1,1 @@
+package com.auxiliary.designer.decorator;public abstract class SuperScore {    public abstract void report();    public abstract void sign(String name);}

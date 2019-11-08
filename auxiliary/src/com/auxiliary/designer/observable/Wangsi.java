@@ -1,0 +1,1 @@
+package com.auxiliary.designer.observable;public class Wangsi implements Observers {    @Override    public void update(Object context) {        System.out.println("wang si zai jianting ne");        happy(context);    }    void happy(Object o){        System.out.println(o.toString());    }}

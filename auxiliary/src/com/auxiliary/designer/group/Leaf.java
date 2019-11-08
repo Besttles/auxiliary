@@ -1,0 +1,1 @@
+package com.auxiliary.designer.group;public class Leaf implements Node {    private String name;    private int score;    public Leaf(String name, int score) {        this.name = name;        this.score = score;    }    @Override    public String getInfo() {        return this.name + this.score;    }}

@@ -1,0 +1,1 @@
+package com.auxiliary.manage.thread;import com.auxiliary.manage.Manage;import java.util.concurrent.ExecutorService;public abstract class ThreadManager<V> extends Manage<V> {    ExecutorService excutor;    protected abstract void manage();}

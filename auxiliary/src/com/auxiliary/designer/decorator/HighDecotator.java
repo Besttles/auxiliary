@@ -1,0 +1,1 @@
+package com.auxiliary.designer.decorator;public class HighDecotator extends Decorator {    public HighDecotator(SuperScore score) {        super(score);    }    public void highDecorator(){        System.out.println("修饰后的分数变高！");    }    @Override    public void report() {        this.highDecorator();        super.report();    }}

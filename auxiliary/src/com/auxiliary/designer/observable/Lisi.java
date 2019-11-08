@@ -1,0 +1,1 @@
+package com.auxiliary.designer.observable;public class Lisi implements Observers {    public Lisi() {    }    void reportToQSH(String context){        System.out.println("bing gao qin shi huang :"+context);    }    @Override    public void update(Object context) {        System.out.println("监听到动静了");        this.reportToQSH(context.toString());    }}

@@ -1,0 +1,1 @@
+package com.auxiliary.manage.thread;import java.util.concurrent.Callable;public abstract class NameCallable<V> implements Callable<V> {    protected String name;    public abstract V call();    public String getName() {        return name;    }    public void setName(String name) {        this.name = name;    }}

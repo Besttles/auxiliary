@@ -1,0 +1,1 @@
+package com.auxiliary.designer.decorator;public class BeautifulDecotator extends Decorator{    public BeautifulDecotator(SuperScore score) {        super(score);    }    public void beautifulDecotator(){        System.out.println("修饰后的页面更美");    }    @Override    public void report() {        this.beautifulDecotator();        super.report();    }}

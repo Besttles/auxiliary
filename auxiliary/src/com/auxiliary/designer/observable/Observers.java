@@ -1,0 +1,1 @@
+package com.auxiliary.designer.observable;public interface Observers {    void update(Object context);}
