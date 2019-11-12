@@ -1,0 +1,1 @@
+package com.auxiliary.designer.visitor;public interface ElementVisitor<T> {    public T visit();}

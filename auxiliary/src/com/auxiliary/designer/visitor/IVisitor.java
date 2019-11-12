@@ -1,0 +1,1 @@
+package com.auxiliary.designer.visitor;public interface IVisitor {    void visit(CommonEmployee employee);    void visit(Manager manager);    void report();}

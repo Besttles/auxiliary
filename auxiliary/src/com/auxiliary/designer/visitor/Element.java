@@ -1,0 +1,1 @@
+package com.auxiliary.designer.visitor;public abstract class Element<T> {    public abstract void accept(ElementVisitor<T> visitor);}
