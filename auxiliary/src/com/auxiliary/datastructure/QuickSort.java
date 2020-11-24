@@ -25,6 +25,14 @@ public class QuickSort {
         }
     }
 
+    /*
+     * 1，4，6，3，6，7，8，2
+     * 标记中轴线，然后将左右两端与标记中轴线相比
+     * @param param
+     * @param low
+     * @param high
+     * @return
+     */
     public static int quick(int [] param , int low , int high){
         //快速排序每一趟都找到一个数的正确位置
         int pivot = param[low];
