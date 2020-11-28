@@ -21,6 +21,7 @@ public class InsertSort {
                 int tem = arr[i];
                 int j;
                 //把i之前的数子进行遍历，前面的数字已经是排好序的了
+                //倒序查找，当原本有序，只要n-1次的比较
                 for(j=i-1;j>0&&arr[j]>tem;j--) {
                     //移动元素
                     arr[j+1] = arr[j];
