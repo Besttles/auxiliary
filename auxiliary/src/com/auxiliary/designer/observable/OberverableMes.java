@@ -1,1 +1,1 @@
-package com.auxiliary.designer.observable;public class OberverableMes extends MessageQueue {    void change(String string) throws InterruptedException {        System.out.println(string);        super.notifyObservers(string);    }}
+package com.auxiliary.designer.observable;public class OberverableMes extends MessageQueue {    private HanFeizi han = new HanFeizi();    void change(String string) throws InterruptedException {        han.havaBreakfast();        super.notifyObservers(string);    }}

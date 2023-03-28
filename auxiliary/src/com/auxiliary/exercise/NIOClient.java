@@ -14,7 +14,7 @@ public class NIOClient {
         for (;;){
             Socket socket = new Socket("127.0.0.1", 8889);
             OutputStream out = socket.getOutputStream();
-//            String s = "hello world";
+
             Scanner scanner = new Scanner(System.in);
 
             String next = scanner.next();
